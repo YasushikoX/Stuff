@@ -1,6 +1,6 @@
 import os
 
-folder = r"C:\Users\yasus\Videos\Training Data" # Path to the folder where you want to delete sonthing
+folder = r"path/to/directory" # Path to the folder where you want to delete sonthing
 
 for filename in os.listdir(folder):
     file_path = os.path.join(folder, filename)
