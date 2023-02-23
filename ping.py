@@ -31,7 +31,7 @@ class Pinger:
 
 
 class PingPlotter:
-    LIMIT = 1000  # default limit of data points to display
+    LIMIT = 50  # default limit of data points to display
     INTERVAL = 500  # default interval between pings (in ms)
 
     def __init__(self, pinger: Pinger, limit: int = LIMIT, interval: int = INTERVAL):
